@@ -6,7 +6,7 @@ const {
     deleteTodo,
     updateTodo,
     changeTodoStatus
-} = require('../controllers/userController');
+} = require('../controllers/todoController');
 
 userRouter
 .get('/fetchTodos',fetchTodos)
