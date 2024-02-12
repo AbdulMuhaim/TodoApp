@@ -12,8 +12,7 @@ const todoSchema = mongoose.Schema({
     createdDate:{
         type:Date,
         default:Date.now
-      },
-
+      }
 })
 
 module.exports = mongoose.model("user",todoSchema)
