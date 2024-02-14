@@ -9,7 +9,7 @@ const PORT = process.env.PORT
 const MONGODB_URI = process.env.MONGODB_URI;
 
 const corsOptions = {
-    origin: process.env.FRONT_END_URL,
+    origin: '*',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
   };
